@@ -1,0 +1,371 @@
+@charset "UTF-8";
+/*
+Theme Name: VGGP1
+Theme URI: http://videogamegp.com/
+Author: VGGP
+Author URI: http://videogamegp.com/
+*/
+
+@font-face {
+    font-family: 'Diavlo';
+	 src: url('http://www.videogamegp.com/assets/diavlo_book_ii_37-webfont.ttf') format('TrueType');
+    src: url('http://www.videogamegp.com/assets/diavlo_book_ii_37-webfont.eot');
+    src: url('http://www.videogamegp.com/assets/diavlo_book_ii_37-webfont.eot?#iefix') format('embedded-opentype');
+    src: url('http://www.videogamegp.com/assets/diavlo_book_ii_37-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Diavlo';
+    src: url('http://www.videogamegp.com/assets/diavlo_bold_ii_37-webfont.ttf') format('TrueType');
+    src: url('http://www.videogamegp.com/assets/diavlo_bold_ii_37-webfont.eot');
+    src: url('http://www.videogamegp.com/assets/diavlo_bold_ii_37-webfont.eot?#iefix') format('embedded-opentype');
+    src: url('http://www.videogamegp.com/assets/diavlo_bold_ii_37-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'District';
+    src: url('http://www.videogamegp.com/assets/distth__-webfont.eot');
+    src: url('http://www.videogamegp.com/assets/distth__-webfont.eot?#iefix') format('embedded-opentype');
+    src: url('http://www.videogamegp.com/assets/distth__-webfont.woff') format('woff');
+    src: url('http://www.videogamegp.com/assets/distth__-webfont.ttf') format('TrueType');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+a {
+	color:#470E1A;
+	text-decoration:none;
+}
+
+a:visited {
+	color:#A54B16;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#DC6C00;
+	text-decoration:none;
+}
+
+
+h1 {
+	font-family:'Diavlo', Georgia, Arial, sans-serif;
+	font-size:3em;
+	color:#803808;
+	text-shadow:-2px 2px 0px #fff;
+	margin:0;
+}
+
+h1 a {
+	color:#470E1A;
+	text-decoration:none;
+}
+
+h1 a:visited {
+	color:#A54B16;
+	text-decoration:none;
+}
+
+h1 a:hover {
+	color:#6E2400;
+	text-decoration:none;
+	text-shadow:-2px 2px 0px #DC6C00;
+}
+
+h3 {
+	font-family:'Diavlo', Georgia, Arial, sans-serif;
+	font-size:1.25em;
+	color:#DC6C00;
+	margin:5px 0 0 0;
+}
+
+img {
+	border:0;
+}
+
+body {
+	background:url(http://www.videogamegp.com/img/vgggpbg.png) top repeat-x #6E0610;
+	margin:0;
+	padding:0;
+	font-family:'District', Helvetica, Arial, sans-serif;
+	font-size:.9em;
+	color:#222;
+}
+
+#header {
+	margin:15px auto 0 auto;
+	background:url(http://www.videogamegp.com/img/headerbg.png) no-repeat bottom;
+	height:275px;
+	width:1100px;
+}
+
+#headercont {
+	margin:0 auto;
+	height:275px;
+	width:717px;
+}
+
+#logo {
+	width:540px;
+	height:230px;
+	margin:0;
+	float:left;
+}
+
+.toplink {
+	font-family:'Diavlo', Georgia, Arial, sans-serif;
+	font-size:1.3em;
+	text-transform:uppercase;
+	background:#F36E21;
+	border-radius:10px;
+	padding:10px 10px 10px 10px;
+	color:#fff;
+	float:right;
+	margin:12px 0 0 0;
+	moz-box-shadow: -3px 3px 0px #803808;
+	box-shadow: -3px 3px 0px #803808;
+	webkit-box-shadow: -3px 3px 0px #803808;
+}
+
+.toplink:hover {
+	background:#FBC19F url(http://www.videogamegp.com/img/linkbg.png);
+	moz-box-shadow: -3px 3px 0px #D85620;
+	box-shadow: -3px 3px 0px #D85620;
+	webkit-box-shadow: -3px 3px 0px #D85620;
+	padding:10px 20px;
+	text-shadow:-2px 2px 0px #F36E21;
+	text-decoration:none;
+}
+
+.spacer {
+	clear:both;
+}
+
+#container {
+	background:url(http://www.videogamegp.com/img/contbg.jpg);
+	width:1100px;
+	margin:0 auto;
+	moz-box-shadow: 0 0 10px #000;
+	box-shadow: 0 0 10px #000;
+	webkit-box-shadow: 0 0 10px #000;
+	padding:0 0 0 0;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+#gamevid {
+	margin:15px 0 0 0;
+}
+
+.description {
+	text-align:left;
+	width:825px;
+	padding:15px 10px 0 10px;
+}
+
+.post {
+	width:775px;
+	margin:auto;
+}
+
+.postcontent {
+	width:775px;
+	margin:auto;
+}
+
+.postmetadata {
+	background:url(http://www.videogamegp.com/img/postmetabg.png) top left no-repeat;
+	height:27px;
+	padding: 13px 0 10px 0px;
+	color:#fff;
+	width:265px;
+	font-family:'Diavlo', Georgia, Arial, sans-serif;
+	text-transform:uppercase;
+	font-size:1.1em;
+	text-align:center;
+}
+	
+.postmetadata a, a:visited {
+	color:#F36E21;
+}
+
+.postmetadata a:hover {
+	color:#FBC19F;
+}
+
+.divider {
+	background:url(http://www.videogamegp.com/img/divider.png) top center;
+	height:3px;
+	width:765px;
+	margin:0 0 0 10px;
+}
+
+
+#sidebar {
+	border-top-right-radius: 10px;
+	background:url(http://www.videogamegp.com/img/sidebarbg.png) bottom left no-repeat;
+	width:245px;
+	float:right;
+	padding:10px 15px;
+	color:#333333;
+}
+
+.about_you_widget {
+	text-align:justify;
+	margin:5px 0 0 5px;
+	padding:0 0 10px 0;
+	border-bottom:#FC9 1px dotted;
+}
+
+.about_you_widget .sidebartitle{
+	font-family:'Diavlo', Georgia, Arial, sans-serif;
+	font-size:1.1em;
+	color:#333333;
+}
+
+.about_you_widget ul li{
+	display:inline;
+}
+
+.about_you_widget ul li, .followlink{
+	padding:5px 5px 5px 5px;
+	background:#B82234;
+	moz-box-shadow: -3px 3px 0px #803808;
+	box-shadow: -3px 3px 0px #803808;
+	webkit-box-shadow: -3px 3px 0px #803808;
+	border-radius:5px;
+	
+}
+
+.about_you_widget ul li a, .followlink a {
+	color:#FC9;
+}
+
+.about_you_widget ul li a:hover, .followlink a:hover {
+	color:#fff;
+}
+
+.followlink {
+margin: 0 auto;
+text-align:center;
+width:225px;
+}
+
+input, textarea {
+	padding:10px;
+	border-radius:5px;
+	border:#CCC 1px solid;
+	font-family:'Diavlo', Georgia, Arial, sans-serif;
+	color:#B82234;
+}
+
+input[type="submit"] {
+	background:#F36E21;
+	border:0;
+	moz-box-shadow: -3px 3px 0px #803808;
+	box-shadow: -3px 3px 0px #803808;
+	webkit-box-shadow: -3px 3px 0px #803808;
+	font-size:1.1em;
+	color:#fff;
+	text-transform:uppercase;
+}
+
+input[type="submit"]:hover {
+	padding:10px 15px;
+	background:#FBC19F;
+	text-shadow:-1px 1px 0px #F36E21;
+}
+
+.commentlist {
+	padding: 0 0 20px 0;
+	border-bottom:#FC9 1px dotted;
+	width:780px;
+}
+
+small{
+	font-family:'Diavlo', Georgia, Arial, sans-serif;
+	color:#333;
+}
+
+ol.commentlist li {
+	list-style:none;
+	background:#F7C6CE;
+	padding:10px 10px 15px 10px;
+	border-radius:10px;
+	margin: 0 auto 10px auto;
+	width:650px;
+}
+
+ul.children li{
+	background:#FCDBE6;
+	width:550px;
+}
+
+ul.children li ul.children li{
+	background:#F9E8EE;
+	width:460px;
+}
+
+.fn {
+	font-family:'Diavlo', Georgia, Arial, sans-serif;
+	font-weight:bold;
+	font-style:normal;
+}
+
+.comment-author {
+	color:#D11349;
+}
+
+.avatar {
+	border: 1px solid #333;
+	moz-box-shadow: 0 0 3px #333;
+	box-shadow: 0 0 3px #333;
+	webkit-box-shadow: 0 0 3px #333;
+}
+.comment-meta {
+	border-bottom:#fff 1px dotted;
+	padding: 0 0 5px 0;
+	font-size: 10px;
+	font-family:'Diavlo', Georgia, Arial, sans-serif;
+	text-transform:uppercase;
+	margin: 0 0 -5px 0;
+}
+
+.reply {
+	color: #470E1A;
+	font-size: 10px;
+	font-family:'Diavlo', Georgia, Arial, sans-serif;
+	text-transform:uppercase;
+}
+
+.comment-reply-link, .comment-reply-link:visited {
+	background:#F36E21;
+	border:0;
+	moz-box-shadow: -3px 3px 0px #803808;
+	box-shadow: -3px 3px 0px #803808;
+	webkit-box-shadow: -3px 3px 0px #803808;
+	padding:5px;
+	border-radius:5px;
+	color:#333;
+}
+
+.comment-reply-link:hover{
+	color:#fff;
+	padding:5px 10px;
+}
+
+#footer {
+	background:url(http://www.videogamegp.com/img/footerbg.png);
+	color:#fff;
+	margin:10px 0 0 0;
+	text-align:center;
+	font-size:.75em;
+	width: 1080px;
+	padding:10px;
+}
