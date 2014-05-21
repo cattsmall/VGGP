@@ -25,17 +25,17 @@ Template Name: Index-LIVE
 
 
 		
-<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-			<div class="post">
-            <h1 class="posttitle"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s'), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
-<div class="postcontent">
-			<?php the_content(); ?>
-            <div class="divider"></div>
-		</div>
-<?php endwhile; else: ?>
-<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
-<?php endif; ?>
-</div>
+<article class="post">
+  <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+   <h1 class="posttitle"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s'), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
+   <div class="postcontent">
+      <?php the_content(); ?>
+      <div class="divider"></div>
+   </div>
+   <?php endwhile; else: ?>
+   <p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
+   <?php endif; ?>
+</article>
 <div class="spacer"></div>
 </div>
 <?php get_footer(); ?>

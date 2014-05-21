@@ -8,11 +8,11 @@ Template Name: events
 <div id="container">
    <?php get_sidebar(); ?>
 	<div class="description">
-		<div class="post">
+		<article class="post">
 			<h1 class="posttitle"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s'), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark">Past Races</a></h1>
 			<p>Missed an epic showdown or revenge match? Catch up on past events here!</p>
 			<div class="divider"></div>
-		</div>
+		</article>
 		<?php query_posts('category_name=past&showposts=10'); ?>
 		<?php while (have_posts()) : the_post(); ?>
 	    <div class="post">

@@ -163,32 +163,36 @@ body {
 	margin:15px 0 0 0;
 }
 
+.description, #sidebar {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
 .description {
 	text-align:left;
-	width:825px;
-	padding:15px 10px 0 10px;
+	width:72%;
+	padding:15px 30px 0;
+  border-right:1px solid rgba(0,0,0, .5);
 }
 
 .post {
-	width:775px;
 	margin:auto;
+  padding-bottom: 30px;
+}
+
+.post + .post {
+  border-top: 1px solid rgba(0,0,0, .25);
+  padding-top: 30px;
 }
 
 .postcontent {
-	width:775px;
 	margin:auto;
 }
 
 .postmetadata {
-	background:url(http://www.videogamegp.com/img/postmetabg.png) top left no-repeat;
-	height:27px;
-	padding: 13px 0 10px 0px;
-	color:#fff;
-	width:265px;
 	font-family:'Diavlo', Georgia, Arial, sans-serif;
 	text-transform:uppercase;
 	font-size:1.1em;
-	text-align:center;
 }
 	
 .postmetadata a, a:visited {
@@ -209,7 +213,6 @@ body {
 
 #sidebar {
 	border-top-right-radius: 10px;
-	background:url(http://www.videogamegp.com/img/sidebarbg.png) bottom left no-repeat;
 	width:245px;
 	float:right;
 	padding:10px 15px;
@@ -361,11 +364,18 @@ ul.children li ul.children li{
 }
 
 #footer {
-	background:url(http://www.videogamegp.com/img/footerbg.png);
+  background: #000000;
+  background: -moz-linear-gradient(left,  #000000 0%, #474747 50%, #131313 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#000000), color-stop(50%,#474747), color-stop(100%,#131313));
+  background: -webkit-linear-gradient(left,  #000000 0%,#474747 50%,#131313 100%);
+  background: -o-linear-gradient(left,  #000000 0%,#474747 50%,#131313 100%);
+  background: -ms-linear-gradient(left,  #000000 0%,#474747 50%,#131313 100%);
+  background: linear-gradient(to right,  #000000 0%,#474747 50%,#131313 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#131313',GradientType=1 );
+	
 	color:#fff;
 	margin:10px 0 0 0;
 	text-align:center;
 	font-size:.75em;
 	width: 1080px;
-	padding:10px;
 }
