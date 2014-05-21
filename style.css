@@ -111,6 +111,11 @@ body {
 	width:717px;
 }
 
+#headercont a, #headercont a:hover {
+  display:block;
+  color: #FFF;
+}
+
 #logo {
 	width:540px;
 	height:230px;

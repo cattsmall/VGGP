@@ -11,12 +11,20 @@
 <body>
 
 <div id="header">
-<div id="headercont">
-<a href="<?php echo home_url(); ?>"><div id="logo"><img src="http://www.videogamegp.com/img/logo-final.png" /></div></a>
-    <a href="<?php echo home_url(); ?>/about"><div class="toplink">About vggp</div></a>
-    <a href="<?php echo home_url(); ?>/updates"><div class="toplink">Updates</div></a>
-   <a href="<?php echo home_url(); ?>/past-races/"><div class="toplink">Past Races</div></a>
-    <div class="spacer"></div>
-    </div>
-    </div>
+   <div id="headercont">
+      <div id="logo">
+         <a href="<?php echo home_url(); ?>"><img src="http://www.videogamegp.com/img/logo-final.png" /></a>
+      </div>
+      <div class="toplink">
+         <a href="<?php echo home_url(); ?>/about">About vggp</a>
+      </div>
+      <div class="toplink">
+      <a href="<?php echo home_url(); ?>/updates">Updates</a>
+      </div>
+      <div class="toplink">
+      <a href="<?php echo home_url(); ?>/past-races/">Past Races</a>
+      </div>
+      <div class="spacer"></div>
+   </div>
+</div>
  
