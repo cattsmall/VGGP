@@ -15,7 +15,6 @@ Template Name: Events
 <div class="postcontent">
 	<?php query_posts("category_name=Downloads");?>
 			<?php the_content(); ?>
-            <div class="divider"></div>
 		</article>
 <?php endwhile; else: ?>
 <p><?php _e('Sorry, no posts matched your criteria.'); ?></p>

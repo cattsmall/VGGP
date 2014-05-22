@@ -180,6 +180,10 @@ body {
   border-right:1px solid rgba(0,0,0, .5);
 }
 
+iframe {
+  max-width: 100%;
+}
+
 .post {
 	margin:auto;
   padding-bottom: 30px;
@@ -218,7 +222,7 @@ body {
 
 #sidebar {
 	border-top-right-radius: 10px;
-	width:245px;
+	width:28%;
 	float:right;
 	padding:10px 15px;
 	color:#333333;
@@ -379,8 +383,7 @@ ul.children li ul.children li{
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#131313',GradientType=1 );
 	
 	color:#fff;
-	margin:10px 0 0 0;
 	text-align:center;
 	font-size:.75em;
-	width: 1080px;
+	padding: 10px;
 }
